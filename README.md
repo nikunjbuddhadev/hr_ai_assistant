@@ -42,4 +42,3 @@ A lightweight HR AI Assistant that answers employee queries using your internal 
 **Notes / Limitations**
 - This project uses `sentence-transformers` for embeddings.
 - OpenAI integration is optional. Without an API key, the app returns the most relevant snippets and indicates whether the exact answer exists in documents.
-- For production, consider using a managed vector DB (Pinecone/Chroma), better chunking, authentication, and document access controls.
