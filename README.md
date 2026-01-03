@@ -1,4 +1,4 @@
-# HR AI Assistant (Hackathon-ready)
+# HR AI Assistant
 
 **What this is**
 A lightweight HR AI Assistant that answers employee queries using your internal HR documents.
@@ -43,5 +43,3 @@ A lightweight HR AI Assistant that answers employee queries using your internal 
 - This project uses `sentence-transformers` for embeddings.
 - OpenAI integration is optional. Without an API key, the app returns the most relevant snippets and indicates whether the exact answer exists in documents.
 - For production, consider using a managed vector DB (Pinecone/Chroma), better chunking, authentication, and document access controls.
-
-Enjoy the hackathon! 🎉
